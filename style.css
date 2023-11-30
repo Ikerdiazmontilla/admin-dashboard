@@ -204,7 +204,26 @@ nav{
     font-size: 1.2rem;
 }
 
+
+
+
+
+
 .main{
     grid-area: 2/2/3/3;
     background-color: #ECF0F1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content{
+    grid-area: 1/1/3/2;
+}
+
+.side-content{
+    grid-area: 1/2/3/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
 }
