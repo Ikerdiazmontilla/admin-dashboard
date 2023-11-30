@@ -167,7 +167,7 @@ nav{
 
 .sidebar h1{
     margin-bottom: 7%;
-
+    font-weight: 900;
 }
 
 .sidebar ul{
@@ -203,6 +203,7 @@ nav{
 .sidebar div{
     align-self: center;
     font-size: 1.2rem;
+    font-weight: 700;
 }
 
 
@@ -224,6 +225,7 @@ nav{
 .main img{
     height: 40px;
     width: 40px;
+    border-radius: 50%;
 }
 
 .main svg{
@@ -285,4 +287,48 @@ nav{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
+    gap: 1vh;
+}
+
+.side-content > div:first-child{
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+    gap: 2vh;
+}
+
+.side-content > div:first-child > div{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2vh;
+}
+
+.side-content > div:first-child > div > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px ridge #48C9B0;
+    border-radius: 12px;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.side-content > div:first-child > div > div:hover{
+    background-color: #48C9B0;
+    border: 2px ridge #34495E;
+    color: #ECF0F1;
+}
+
+.side-content > div:first-child  p{
+    font-size: 1.2rem;
+}
+.side-content > div:first-child > div > div > div{
+    font-size: 1.2rem;
+}
+
+meter{
+    height: 20px;
+}
+
+
+meter::-webkit-meter-optimum-value{
+    background-color: green;
 }
