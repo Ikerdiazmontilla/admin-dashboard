@@ -1,0 +1,19 @@
+Background Colors:
+
+Header: #4A154B (Deep Plum)
+Sidebar: #2C3E50 (Midnight Blue)
+Main Area: #ECF0F1 (Off White)
+
+
+Font Colors:
+
+Header Font: #FFFFFF (White)
+Sidebar Font: #ABB7B7 (Cadet Grey)
+Main Area Font: #34495E (Roman Silver)
+
+
+Hover Colors:
+
+Header Elements Hover: #663399 (Rebecca Purple)
+Sidebar Elements Hover: #3498DB (Vivid Cerulean)
+Main Area Elements Hover: #48C9B0 (Medium Aquamarine)

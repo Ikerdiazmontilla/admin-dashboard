@@ -3,11 +3,12 @@
     margin: 0px;
     padding: 0px;
     font-family: Nunito, sans;
+    box-sizing: border-box;
     /* border: 1px solid red; */
 }
 
 body{
-    font-size: 16px;
+    font-size: 15px;
 }
 
 ul{
@@ -212,13 +213,71 @@ nav{
 .main{
     grid-area: 2/2/3/3;
     background-color: #ECF0F1;
+    color: #34495E;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 2%;
+    gap: 1vw;
+}
+
+.main img{
+    height: 40px;
+    width: 40px;
+}
+
+.main svg{
+    height: 25px;
+    width: 25px;
+}
+
+.main svg:hover{
+    height: 28px;
+    width: 28px;
 }
 
 .main-content{
     grid-area: 1/1/3/2;
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+    gap: 2vh;
+}
+
+.main-content > h2{
+    align-self: end;
+}
+
+.main-content > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3vh;
+}
+
+.main-content > div > div{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    border: 2px ridge #48C9B0;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.main-content > div > div:hover{
+    background-color: #48C9B0;
+    border: 2px ridge #34495E;
+    color: #ECF0F1;
+}
+
+.main-content > div > div:hover svg{
+    fill: #ECF0F1;
+}
+
+.main-content > div > div > div{
+    display: grid;
+    grid-template-columns: repeat(3,28px);
+    justify-content: end;
+    align-content: end;
 }
 
 .side-content{
