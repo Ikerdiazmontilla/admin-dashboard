@@ -216,7 +216,7 @@ nav{
     background-color: #ECF0F1;
     color: #34495E;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 2%;
     gap: 1vw;
@@ -309,6 +309,7 @@ nav{
     border-radius: 12px;
     align-items: center;
     padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .side-content > div:first-child > div > div:hover{
@@ -322,6 +323,7 @@ nav{
 }
 .side-content > div:first-child > div > div > div{
     font-size: 1.2rem;
+    justify-self: end;
 }
 
 meter{
