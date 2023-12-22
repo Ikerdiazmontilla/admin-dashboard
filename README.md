@@ -1,2 +1,3 @@
-# admin-dashboard
-Admin Dashboard with grid
+# Admin-dashboard
+## Live demo
+https://ikerdiazmontilla.github.io/rock-paper-scissors/
